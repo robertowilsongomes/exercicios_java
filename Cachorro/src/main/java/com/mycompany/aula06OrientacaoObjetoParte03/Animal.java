@@ -34,6 +34,8 @@ if (this instanceof Cachorro) {
 System.out.println("Có Có");
 }
 }
-    
+public void Correr() {
+    JOptionPane.showMessageDialog(null, "Animal Correndo");
+}    
     
 }

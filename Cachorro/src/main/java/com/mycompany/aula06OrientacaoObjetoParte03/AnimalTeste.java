@@ -28,11 +28,15 @@ public class AnimalTeste {
     
     Animal coco = new Galinha();
   
+    Animal Tornado = new Cavalo();
     
     toto.fazerBarulho();
     coco.fazerBarulho();
     generico.fazerBarulho();
-    
+    Tornado.fazerBarulho();
+    toto.Correr();
+    coco.Correr();
+    Tornado.Correr();
     }
 
     
